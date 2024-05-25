@@ -1,28 +1,53 @@
-# Library-Management-System-SchoolProject
-This Library Management System was built for my school final project. 
+# Library Management System
 
-SYSTEM FUNCTIONALITIES AND CAPABILITIES:
+## Introduction
 
-• Registering new users may it be a faculty, student or an admin as another admin.
+This Library Management System is a comprehensive software solution developed for a school final project. Built using Java, SQL, and the Derby embedded database, the system leverages NetBeans for its development environment. The project aims to streamline library operations, improve user experience, and provide efficient management tools for administrators.
 
-• Removing existing users/accounts as an admin.
+## Features
 
-• Storing account and book data on database.
+### System Functionalities and Capabilities
 
-• Logging into the system with pre-existing accounts only.
+- **User Management**:
+  - **Registering New Users**: Allows registration of faculty, students, and admins.
+  - **Removing Users**: Admins can remove existing user accounts.
+  - **Login System**: Only pre-existing accounts can log into the system.
 
-• Browsing books available in the current library.
+- **Book Management**:
+  - **Storing Data**: Accounts and book data are stored in the database.
+  - **Browsing Books**: Users can browse books available in the library.
+  - **Genre Categorization**: Users and admins can view books by genre.
+  - **Book Search**: Users can search for books by book ID.
+  - **Add/Remove Books**: Admins can effortlessly add or remove book information.
+  - **Borrowing Books**: Users can borrow books, which must be returned by an agreed due date (up to 7 days, 150 days, or 1 semester for faculty).
 
-• Letting users and admins see books by genre.
+- **User Notifications**:
+  - **Email Notifications**: Easier monitoring and notifications through an emailing system.
+  - **Profile and Inventory**: Users can view their profiles and borrowed books.
 
-• Easier monitoring/notifications through the use of emailingsystem.
+- **Admin Features**:
+  - **Monitoring Borrowed Books**: Admins can track which books are borrowed by users.
 
-• Letting admins add or remove book information effortlessly andprecisely.
+## Project Files
 
-• Letting users search book by book ID.
+The system comprises several Java files, form files, and database connection files, ensuring a seamless library management experience. Key files include:
 
-• Letting admins to know which books are borrowed by users.
+- **AcceptedMail.java**
+- **Admin_Module.java and Admin_Module.form**
+- **BookRequests.java and BookRequests.form**
+- **BorrowedBooks.java and BorrowedBooks.form**
+- **LibrarySystem.java**
+- **LoginPage.java and LoginPage.form**
+- **Manage_Accounts.java and Manage_Accounts.form**
+- **ManagedBooks.java and ManagedBooks.form**
+- **OverdueMail.java**
+- **RejectedMail.java**
+- **Search_Borrow.java and Search_Borrow.form**
+- **User_Module.java and User_Module.form**
+- **aboutSystem.java and aboutSystem.form**
+- **bookReports.java and bookReports.form**
+- **connectLibrary.java**
+- **loadingScreenLibrary.java and loadingScreenLibrary.form**
+- **rulesSystem.java and rulesSystem.form**
 
-• Letting users borrow books which shall then be returned beforean agreed due date that the user had inputted (max. 7 days,150 days or 1 semester for faculty members).
 
-• Letting users to see their profile, along with their inventory showing their borrowed books.
